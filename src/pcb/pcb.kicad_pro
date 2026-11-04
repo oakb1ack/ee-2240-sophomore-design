@@ -510,7 +510,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.508,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -656,6 +656,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -668,13 +676,13 @@
         "uuid": "7f2de3c1-2c2b-491d-9b0f-3e60f74508ed"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J4-6",
     "variants": []
   },
   "sheets": [
     [
       "7f2de3c1-2c2b-491d-9b0f-3e60f74508ed",
-      "Root"
+      "pcb"
     ]
   ],
   "text_variables": {},
