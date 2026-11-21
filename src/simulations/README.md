@@ -15,15 +15,16 @@ Multisim models explore the Noisy Cricket amplifier and its individual stages. U
 | Complete circuit | [NoisyCricket/noisyCricket.ms14](NoisyCricket/noisyCricket.ms14) | Follow the overall circuit and compare it with the focused studies |
 | Input stage | [PreampStage/preampStage.ms14](PreampStage/preampStage.ms14) | Input-stage waveform and bias behavior |
 | Tone and volume | [ToneVolumeControl/toneVolumeControl.ms14](ToneVolumeControl/toneVolumeControl.ms14) | How control settings affect amplitude and frequency response |
-| Power supply | [PowerSupply/powerstage.ms14](PowerSupply/powerstage.ms14) | Compare switch-open and switch-closed supply behavior |
+| Power supply | [PowerSupply/powerstage.ms14](PowerSupply/powerstage.ms14) | Compare switch-open and switch-closed supply behavior; see the [study guide](PowerSupply/README.md) |
 | Power amplifier filtering | [PowerampBypass/noisyCricket.ms14](PowerampBypass/noisyCricket.ms14) | Compare the saved filter-on and filter-off cases |
+| Gain stage | [GainStage/GainStage.ms14](GainStage/GainStage.ms14) | Inspect the separate gain-stage model |
 | Earlier experiments | [deprecatedBuild/](deprecatedBuild/) | Historical preamp, gain, long-tailed-pair, output, and solid-state amplifier studies |
 
-The two files named `noisyCricket.ms14` belong to different studies. Open them by their full paths. The `deprecatedBuild` folder preserves earlier work and is not the starting point for the current PCB.
+Several files named `noisyCricket.ms14` belong to different studies. Open them by their full paths. The `deprecatedBuild` folder preserves earlier work and is not the starting point for the current PCB.
 
 ## How the studies relate
 
-The [PCB circuit](../pcb/README.md#signal-path) uses a JFET input stage to feed the volume control, an RC tone network to shape the signal, and an LM386 stage to drive the output. The supply study examines power switching independently; the control and filter studies explore changes around the audio path.
+The [PCB circuit](../pcb/Noisy_Cricket_MkII/README.md#circuit-and-layout) uses a JFET input stage to feed the volume control, an RC tone network to shape the signal, and an LM386 stage to drive the output. The supply study examines power switching independently; the control and filter studies explore changes around the audio path.
 
 Treat the models as separate experiments. Their existence does not establish that every component value, connection, or switch option matches the current KiCad design. Compare each model with the schematic before using it to predict board performance.
 
@@ -51,4 +52,6 @@ The current `.scp` exports are readable text: headers record timebase, channel s
 
 The `.gra` files are native graph exports for inspection in Multisim. Filenames identify saved cases, but do not fully record the setup. For comparisons, verify the source and load conditions in the corresponding model rather than inferring them from a filename.
 
-Output-power and distortion claims require known test conditions and an identified output measurement. These saved studies alone do not verify the project's 1 W target.
+Output-power and distortion claims require known test conditions and an identified output measurement. These saved studies alone do not verify output power. They do not verify the ½ W target.
+
+The lowercase `powerampbypass/` directory also contains a model and saved cases. Compare it with `PowerampBypass/` before changing either copy; their relationship is not documented. These names differ only in capitalization and may conflict on case-insensitive filesystems.

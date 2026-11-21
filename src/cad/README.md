@@ -44,3 +44,7 @@
 - Do not assume PETG enclosure provides shielding or grounding equivalent to aluminum; address electrical insulation and grounding during actual build.
 
 Suggested iteration: print panels first and physically verify hardware fit, then adapt overall dimensions and support features based on the actual components.
+
+## Edit and regenerate
+
+Install CadQuery in a Python environment, then run `python model.py` from this directory. The script writes the STEP and STL exports next to the model, replacing the existing exports. Review the resulting geometry and fit after making changes. `preview.scad` and `panel_layout.png` are included as supplementary preview files.
