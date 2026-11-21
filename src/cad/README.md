@@ -36,8 +36,8 @@
 | DC jack | 86 | 15 | 12.0 |
 
 ## Engineering cautions
-- The original project's 93.98 × 30.48 mm PCB may not fit inside the selected compact enclosure depending on its installed orientation and mounted components; current design does **not** certify PCB fit or mounting.
-- In particular, original PCB-mounted potentiometer pitch/shaft placement has **not** been verified, nor have the actual switch/jack cutout diameters.
+- The current [PCB layout](../pcb/README.md) has an approximately 121.51 × 60.39 mm outline. Its long edge exceeds both the enclosure's 108 mm outside width and 80 mm outside depth. An axis-aligned horizontal installation will not fit; check any other orientation, internal clearance, and mounting before adapting the enclosure.
+- In particular, potentiometer placement and shaft alignment have **not** been verified, nor have the actual switch/jack cutout diameters.
 - Rear connectors and control bodies require internal clearance testing; the 30 mm height may be insufficient with some off-the-shelf parts.
 - No slots, standoffs, battery compartment or heatsink are included yet.
 - Boss pilots need print testing; selected nominal 2.3 mm diameter for possible thread-forming trial and not heat-set inserts.
