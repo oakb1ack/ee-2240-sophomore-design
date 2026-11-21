@@ -6,7 +6,7 @@ A sophomore design project exploring a compact, 9 V audio amplifier inspired by 
 
 [CAD & enclosure](src/cad/README.md) · [Circuit simulations](src/simulations/README.md) · [PCB & wiring](src/pcb/README.md)
 
-The ordered PCB design is [Noisy Cricket Mk II Rev A](src/pcb/Noisy_Cricket_MkII/README.md); earlier PCB files remain for reference. Verify enclosure fit against the ordered board.
+The ordered PCB design is [Noisy Cricket Mk II Rev A](src/pcb/Noisy_Cricket_MkII/README.md). Verify enclosure fit against the ordered board.
 
 ## How the project fits together
 
@@ -14,7 +14,7 @@ The circuit takes an audio input through a JFET input stage, volume and tone con
 
 ![Provisional enclosure front and rear panel layout](src/cad/panel_layout.png)
 
-*Enclosure concept: front controls and rear connections. Hole positions and hardware fit are provisional; the Grit cutout has no corresponding switch in the current PCB.*
+*Enclosure concept: front controls and rear connections. Hole positions and hardware fit are provisional.*
 
 ## Repository map
 
@@ -35,10 +35,8 @@ The circuit takes an audio input through a JFET input stage, volume and tone con
     │   ├── deprecatedBuild/        Earlier circuit experiments
     │   └── README.md               Model and result guide
     └── pcb/                        KiCad project, schematic, and layout
-        ├── SophomoreProjPCBdesign.kicad_pro
-        ├── SophomoreProjPCBdesign.kicad_sch
-        ├── SophomoreProjPCBdesign.kicad_pcb
-        └── README.md               Circuit, connections, and board details
+        ├── Noisy_Cricket_MkII/     Ordered board project and manufacturing files
+        └── README.md               PCB project guide
 ```
 
 ## Start here
@@ -46,7 +44,7 @@ The circuit takes an audio input through a JFET input stage, volume and tone con
 | Task | Tool / files | Guide |
 | --- | --- | --- |
 | Understand circuit behavior | Multisim 14-format `.ms14` models and saved results | [Simulations](src/simulations/README.md) |
-| Inspect the schematic or board | KiCad 10.0 or a compatible newer version | [PCB](src/pcb/README.md) |
+| Inspect the schematic or board | KiCad 9.0 or a compatible newer version | [PCB](src/pcb/README.md) |
 | Review enclosure geometry | STEP-capable CAD viewer or STL viewer | [CAD](src/cad/README.md) |
 | Change enclosure dimensions | Python with CadQuery; edit `model.py` | [Regeneration](src/cad/README.md#edit-and-regenerate) |
 
