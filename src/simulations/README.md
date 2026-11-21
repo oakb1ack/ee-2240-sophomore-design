@@ -8,6 +8,10 @@ Multisim models explore the Noisy Cricket amplifier and its individual stages. U
 
 *Plot of the first 150 ms of the committed [switch-open](PowerSupply/Results/PowerStageSwitchOpen.scp) and [switch-closed](PowerSupply/Results/PowerStageSwitchClosed.scp) exports, using their time and Channel A columns. The saved values are approximately 4.09 mV and 9 V respectively. These are saved simulation data, not a new run or bench measurements.*
 
+![Multisim circuit and virtual instruments from the project journal](../../docs/photos/simulation-input-stage.png)
+
+*Simulation work from the project journal. The image does not establish the model revision or settings used for the current PCB.*
+
 ## Model map
 
 | Study | Model | What to inspect |

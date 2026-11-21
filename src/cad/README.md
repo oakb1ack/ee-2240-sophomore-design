@@ -2,6 +2,10 @@
 
 **Status:** Initial conceptual fit-check prototype, NOT verified against the original Mark II mechanical assembly. Dimensions/hole layout are provisional and must be checked against real PCB/controls/jacks before printing a functional enclosure.
 
+![Conceptual front and rear enclosure panel layout](panel_layout.png)
+
+*Provisional panel layout; verify the openings and board fit against the actual hardware.*
+
 ## Parts and files
 - `assembly.step`: Complete enclosure positioned as assembled; editable/importable CAD solids.
 - `shell.step` / `front_panel.step` / `rear_panel.step`: Separate STEP solids.

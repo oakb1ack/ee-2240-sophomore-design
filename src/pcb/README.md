@@ -4,6 +4,10 @@
 
 This directory contains the supplied KiCad amplifier design. Open [pcb.kicad_pro](kicad/pcb.kicad_pro) in KiCad 10 to work with the schematic and board together.
 
+![Earlier PCB layout shown in KiCad](../../docs/photos/earlier-pcb-layout.png)
+
+*PCB layout image from the project journal. This is an earlier design image; use the KiCad files below for the current board.*
+
 ## Files
 
 | File | Purpose |

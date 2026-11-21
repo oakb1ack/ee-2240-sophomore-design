@@ -15,3 +15,7 @@ A breadboard setup used during development. Its relationship to the final PCB ha
 ![Oscilloscope showing two traces](oscilloscope-traces.jpeg)
 
 An oscilloscope capture from bench work. The measured nodes and test conditions are not identified in the image.
+
+![Oscilloscope showing waveforms during bench testing](oscilloscope-waveforms.jpeg)
+
+Another journal capture of bench waveforms; its probe connections and test conditions are not recorded with the image.
