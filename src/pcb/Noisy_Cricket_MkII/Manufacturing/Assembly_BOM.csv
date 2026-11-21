@@ -1,0 +1,16 @@
+Line,Qty per board,Reference Designator,Manufacturer Part Number,Manufacturer,Value,Description,Package / Footprint,Type,LCSC Part #,Assembly Notes
+1,2,"C1,C8",25YXJ220M6.3X11,Rubycon,220uF,"25 V radial electrolytic, 6.3 x 11 mm, pitch 2.5 mm",CP_Radial_D6.3mm_P2.50mm,Through-hole,C88729,"C1 Polarized, pad 1 positive. C8 Polarized, pad 1 positive."
+2,2,"C2,C7",C241J473J20A201,Xiamen Faratronic,47nF,"63 V polyester film, pitch 5 mm",C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,Through-hole,C401128,
+3,5,"C3,C4,C5,C6,C9",MKS2C031001A00KSSD,WIMA,100nF,"63 V polyester film, pitch 5 mm",C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2,Through-hole,C97687,C9 Local U1 supply bypass.
+4,1,D1,WP710A10ID,Kingbright,RED,Red diffused 3 mm LED,LED_D3.0mm,Through-hole,C5831626,"D1 Pad 1 cathode, pad 2 anode."
+5,3,"J1,J2,J3",1984617,Phoenix Contact,See designators,"2-position horizontal screw terminal, pitch 3.5 mm","TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal",Through-hole,C3819527,"J1 Pad 1 tip, pad 2 sleeve. J2 Pad 1 speaker positive, pad 2 return. J3 Pad 1 +9 V, pad 2 ground."
+6,1,Q1,J113-D74Z,onsemi,J113,"Lead-formed TO-92, 2.54 mm pitch, pin 1 D, 2 S, 3 G",TO-92_Inline_Wide,Through-hole,C900947,"Q1 Use lead-formed D74Z. Pad 1 drain, 2 source, 3 gate."
+7,1,R1,MFR-25FBF52-1M,Yageo,1M,"1% axial metal film, 1/4 W",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Through-hole,C3371307,
+8,1,R2,MFR-25FBF52-3K3,Yageo,3.3k,"1% axial metal film, 1/4 W",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Through-hole,C3574741,
+9,1,R3,MFR-25FBF52-4K7,Yageo,4.7k,"1% axial metal film, 1/4 W",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Through-hole,C1371435,
+10,1,R4,MFR-25FBF52-10R,Yageo,10R,"1% axial metal film, 1/4 W",R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,Through-hole,C1365579,
+11,2,"SW1,SW2",2AS1T1A01M6QES,Dailywell,See designators,"Right-angle SPDT ON-ON, one throw unused",Dailywell_2A_M6_SPDT,Through-hole,,SW1 Power. Mount along the front edge. Pin 3 unused. SW2 Grit. Mount along the front edge. Pin 3 unused. Quote exact part or consignment.
+12,1,U1,LM386N-1/NOPB,Texas Instruments,LM386N-1,"Audio power amplifier, PDIP-8, pitch 2.54 mm",DIP-8_W7.62mm,Through-hole,C9723,U1 Orient notch to PCB marking. Pad 1 is square.
+13,1,VR1,RD901F-20-15R-B10K-00L1,Taiwan Alpha,10k LIN,"9 mm linear potentiometer, horizontal, no bracket",Alpha_RD901F-20,Through-hole,,"VR1 Volume. Use no-bracket horizontal variant, shaft facing front. Quote exact part or consignment."
+14,1,VR2,RD901F-20-15R-B1K-00L1,Taiwan Alpha,1k LIN,"9 mm linear potentiometer, horizontal, no bracket",Alpha_RD901F-20,Through-hole,,"VR2 Gain. Use no-bracket horizontal variant, shaft facing front. Quote exact part or consignment."
+15,1,VR3,RD901F-20-15R-B100K-00L1,Taiwan Alpha,100k LIN,"9 mm linear potentiometer, horizontal, no bracket",Alpha_RD901F-20,Through-hole,,"VR3 Tone. Use no-bracket horizontal variant, shaft facing front. Quote exact part or consignment."
