@@ -6,6 +6,8 @@ A sophomore design project exploring a compact, 9 V audio amplifier inspired by 
 
 [CAD & enclosure](src/cad/README.md) · [Circuit simulations](src/simulations/README.md) · [PCB & wiring](src/pcb/README.md)
 
+The ordered PCB design is [Noisy Cricket Mk II Rev A](src/pcb/Noisy_Cricket_MkII/README.md); earlier PCB files remain for reference. Verify enclosure fit against the ordered board.
+
 ## How the project fits together
 
 The circuit takes an audio input through a JFET input stage, volume and tone controls, and an LM386 power amplifier to the speaker output. A switched 9 V supply powers the circuit and an indicator LED. Simulations explore individual stages; the PCB implements the circuit; the enclosure provides a starting point for packaging it.

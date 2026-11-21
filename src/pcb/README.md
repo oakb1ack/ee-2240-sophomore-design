@@ -1,3 +1,9 @@
+# PCB designs
+
+The ordered board design is [Noisy Cricket Mk II Rev A](Noisy_Cricket_MkII/README.md). Open [Noisy_Cricket_MkII.kicad_pro](Noisy_Cricket_MkII/Noisy_Cricket_MkII.kicad_pro) in KiCad; its local footprint library and manufacturing files are included in the same directory.
+
+The files described below are the earlier PCB design, retained for reference. Its circuit, dimensions, and connections do not describe the ordered board.
+
 # EE 2240 Amplifier PCB
 
 KiCad schematic and PCB layout for the EE 2240 sophomore design amplifier project. The circuit uses a 9 V supply, an N-channel JFET preamplifier, and an LM386 audio amplifier, with volume, tone, and gain controls.
