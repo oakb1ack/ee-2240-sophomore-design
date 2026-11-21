@@ -1,6 +1,6 @@
 # Noisy Cricket Mk II · Rev A
 
-Editable KiCad 9 project for a 9 V guitar amplifier driving an 8 Ω load. Extract the archive and open `Noisy_Cricket_MkII.kicad_pro`. Keep `Cricket.pretty` and `fp-lib-table` beside the project so KiCad can find the local control footprints.
+Editable KiCad 9 project for a 9 V guitar amplifier driving an 8 Ω load. Open `Noisy_Cricket_MkII.kicad_pro`. Keep `Cricket.pretty` and `fp-lib-table` beside the project so KiCad can find the local control footprints.
 
 ## Circuit and layout
 
