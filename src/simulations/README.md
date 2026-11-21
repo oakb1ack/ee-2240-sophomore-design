@@ -24,7 +24,7 @@ Several files named `noisyCricket.ms14` belong to different studies. Open them b
 
 ## How the studies relate
 
-The [PCB circuit](../pcb/Noisy_Cricket_MkII/README.md#circuit-and-layout) uses a JFET input stage to feed the volume control, an RC tone network to shape the signal, and an LM386 stage to drive the output. The supply study examines power switching independently; the control and filter studies explore changes around the audio path.
+The [PCB circuit](../pcb/README.md) uses a JFET input stage to feed the volume control, an RC tone network to shape the signal, and an LM386 stage to drive the output. The supply study examines power switching independently; the control and filter studies explore changes around the audio path.
 
 Treat the models as separate experiments. Their existence does not establish that every component value, connection, or switch option matches the current KiCad design. Compare each model with the schematic before using it to predict board performance.
 

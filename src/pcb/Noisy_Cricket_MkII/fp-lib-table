@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Cricket")(type "KiCad")(uri "${KIPRJMOD}/Cricket.pretty")(options "")(descr "Noisy Cricket panel controls"))
-)
