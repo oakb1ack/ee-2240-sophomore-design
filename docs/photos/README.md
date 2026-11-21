@@ -4,15 +4,17 @@
 
 These selected images were downloaded from the project journal. They show development work, but the exported filenames did not include dates, circuit revisions, probe locations, or test settings. Add that context from the journal before using the images as evidence for a performance claim.
 
-## Bench work
+## Breadboarding
 
 ![Breadboard circuit](breadboard-overview.jpeg)
 
-A breadboard setup with test leads attached.
+A breadboard setup with test leads attached. This development setup has not been confirmed to match the final PCB.
 
 ![Breadboard detail](breadboard-detail.jpeg)
 
 Another view of breadboard work. Its relationship to the first setup has not been confirmed.
+
+## Other bench work
 
 ![Board and test leads on a workbench](board-test-setup.jpeg)
 

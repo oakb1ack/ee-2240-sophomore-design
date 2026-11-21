@@ -2,10 +2,6 @@
 
 A sophomore design project to explore a compact, battery-powered guitar amplifier. The repository brings together circuit simulations, a KiCad board design, and a prototype enclosure inspired by the Noisy Cricket Mk II.
 
-![Breadboard circuit on the workbench](docs/photos/breadboard-overview.jpeg)
-
-*Breadboard work from the project journal. The photo records a development setup; it does not establish that this circuit matches the final PCB.*
-
 ## The project
 
 The amplifier is designed around a 9 V supply and an 8 Ω speaker load. Its signal path uses a JFET input stage, volume and tone controls, and an LM386 power amplifier. Gain and grit controls provide additional ways to shape the sound. The team explored the circuit in Multisim and on the bench, then developed a PCB and an enclosure concept.
@@ -17,7 +13,7 @@ The amplifier has a **½ W output power target**. The files here do not establis
 | Circuit studies | Multisim models and saved results for the complete circuit and individual stages | [Simulations](src/simulations/README.md) |
 | Board | KiCad schematic, layout, local footprints, manufacturing files, and check reports | [PCB](src/pcb/README.md) |
 | Enclosure | Parametric CAD source, STEP solids, and STL meshes | [CAD](src/cad/README.md) |
-| Project work | Selected breadboard and oscilloscope photos from the journal | [Photo record](docs/photos/README.md) |
+| Breadboarding and testing | Selected photos from the project journal | [Breadboarding](docs/photos/README.md#breadboarding) · [Photo record](docs/photos/README.md) |
 
 ## Design and testing status
 
